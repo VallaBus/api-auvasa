@@ -23,7 +23,11 @@ app.use(cors({ origin: '*' }));
   app.use('/', defaultRoutes);
 
   // Iniciando el servidor, escuchando...
-  app.listen(app.get('port'), () => {
+  app.listen(app.get('port'), (error) => {
+    if (error) {
+      console.error('Failed to start server:', error);
+      return;
+    }
     console.log(`Server listening on port ${app.get('port')}`);
   });
 })();
