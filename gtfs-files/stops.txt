@@ -303,7 +303,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 71,646,Calle Cobalto frente 69 esquina Topacio,Parada,41.6173076499069,-4.71319552137144,,http://www.auvasa.es/mapa-de-servicios/?parada=646,,,Europe/Madrid
 72,647,Calle Cobalto 21 esquina Pirita,Parada,41.6209871052193,-4.70458229556646,,http://www.auvasa.es/mapa-de-servicios/?parada=647,,,Europe/Madrid
 73,648,Calle Cobalto 42 esquina Galena,Parada,41.6192028140726,-4.70881080567548,,http://www.auvasa.es/mapa-de-servicios/?parada=648,,,Europe/Madrid
-74,649,Calle Puente Colgante 1 frente Est. de Autobuses,Parada,41.6411030404971,-4.73112599963664,,http://www.auvasa.es/mapa-de-servicios/?parada=649,,,Europe/Madrid
+74,649,Calle Recondo 4 fte. Estación de Autobuses,Parada,41.6411595971421,-4.7305861913685,,http://www.auvasa.es/mapa-de-servicios/?parada=649,,,Europe/Madrid
 75,651,Calle Puente Colgante 2 Estación de Autobuses,Parada,41.6411560413068,-4.73213400065716,,http://www.auvasa.es/mapa-de-servicios/?parada=651,,,Europe/Madrid
 76,653,Calle Puente Colgante 18 esquina Gabilondo,Parada,41.6410591622916,-4.73483746693653,,http://www.auvasa.es/mapa-de-servicios/?parada=653,,,Europe/Madrid
 77,657,Avenida Las Contiendas frente 109,Parada,41.6586762545348,-4.74739918844576,,http://www.auvasa.es/mapa-de-servicios/?parada=657,,,Europe/Madrid
