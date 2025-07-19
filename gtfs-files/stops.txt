@@ -106,6 +106,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 455,1237,Calle Adolfo Miaja de la Muela frente Padre Llanos,Parada,41.6416591865929,-4.75611136750617,,http://www.auvasa.es/mapa-de-servicios/?parada=1237,,,Europe/Madrid
 456,1238,Calle Adolfo Miaja de la Muela esquina Padre Llanos,Parada,41.6405752737324,-4.7557882662324,,http://www.auvasa.es/mapa-de-servicios/?parada=1238,,,Europe/Madrid
 457,1239,Calle Adolfo Miaja de la Muela Residencia Doctor Villacián,Parada,41.6386491731789,-4.75390639676364,,http://www.auvasa.es/mapa-de-servicios/?parada=1239,,,Europe/Madrid
+458,1247,Calle Mieses esquina Barbecho,Parada,41.6508937381901,-4.74699376572176,,http://www.auvasa.es/mapa-de-servicios/?parada=1247,,,Europe/Madrid
 459,1248,Calle Mieses esquina Monasterio Santa María Retuerta,Parada,41.6507024847843,-4.74747200490314,,http://www.auvasa.es/mapa-de-servicios/?parada=1248,,,Europe/Madrid
 460,1249,Calle Monasterio SanLorenzoEscorial esquina MonasterioYuste,Parada,41.6463433454092,-4.75004785121232,,http://www.auvasa.es/mapa-de-servicios/?parada=1249,,,Europe/Madrid
 461,1250,Calle Monasterio SanLorenzoEscorial esquina SanEstebanGormaz,Parada,41.6464778670557,-4.750334539504,,http://www.auvasa.es/mapa-de-servicios/?parada=1250,,,Europe/Madrid
@@ -364,6 +365,8 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 135,736,Calle Vázquez de Menchaca 19,Parada,41.6204510411647,-4.73455399874407,,http://www.auvasa.es/mapa-de-servicios/?parada=736,,,Europe/Madrid
 136,737,Calle Vázquez de Menchaca 5,Parada,41.6246200372996,-4.73174899854382,,http://www.auvasa.es/mapa-de-servicios/?parada=737,,,Europe/Madrid
 137,738,Calle Vázquez de Menchaca 9,Parada,41.6225430366382,-4.73347400459987,,http://www.auvasa.es/mapa-de-servicios/?parada=738,,,Europe/Madrid
+138,742,Calle Adolfo Miaja de la Muela esquina Remigio Cabello Toral,Parada,41.6354016807519,-4.75476236815371,,http://www.auvasa.es/mapa-de-servicios/?parada=742,,,Europe/Madrid
+139,743,Calle Adolfo Miaja de la Muela 6 esquina Hernando de Acuña,Parada,41.6375940654986,-4.75407993336975,,http://www.auvasa.es/mapa-de-servicios/?parada=743,,,Europe/Madrid
 140,744,Calle Mieses frente 40,Parada,41.6535031526874,-4.74427096024068,,http://www.auvasa.es/mapa-de-servicios/?parada=744,,,Europe/Madrid
 141,747,Calle Mieses frente 16,Parada,41.6593980380105,-4.74069999907677,,http://www.auvasa.es/mapa-de-servicios/?parada=747,,,Europe/Madrid
 142,749,Calle Mieses 40,Parada,41.6534774405601,-4.74458484372339,,http://www.auvasa.es/mapa-de-servicios/?parada=749,,,Europe/Madrid
