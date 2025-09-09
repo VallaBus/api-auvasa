@@ -3,7 +3,7 @@ const cors = require('cors');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger');
 const v2Routes = require('./routes/v2');
-const healthRoutes = require('./routes/health');
+const { router: healthRoutes } = require('./routes/health');
 const { initializeGtfs } = require('./lib/gtfs');
 
 const defaultRoutes = v2Routes;
