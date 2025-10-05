@@ -51,10 +51,5 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 405,101,M5,Parquesol - Plaza de España,,3,http://www.auvasa.es/mapa-de-servicios/?linea=405,532FA2,FFFFFF
 406,101,M6,Las Flores - Fuente Dorada,,3,http://www.auvasa.es/mapa-de-servicios/?linea=406,532FA2,FFFFFF
 407,101,M7,La Cistérniga - Fuente Dorada,,3,http://www.auvasa.es/mapa-de-servicios/?linea=407,532FA2,FFFFFF
-900,101,R,Ferias - Pza. Poniente,,3,http://www.auvasa.es/mapa-de-servicios/?linea=900,3B1391,FFFFFF
-901,101,R1,Ferias - San Pedro R,,3,http://www.auvasa.es/mapa-de-servicios/?linea=901,3B1391,FFFFFF
-902,101,R2,Ferias - Pinar de Jalón,,3,http://www.auvasa.es/mapa-de-servicios/?linea=902,3B1391,FFFFFF
-903,101,R3,Ferias - Santos Pilarica,,3,http://www.auvasa.es/mapa-de-servicios/?linea=903,3B1391,FFFFFF
-904,101,R4,Ferias - Las Flores,,3,http://www.auvasa.es/mapa-de-servicios/?linea=904,3B1391,FFFFFF
 951,101,U1,Covaresa - Universidad (Campus Miguel Delibes),,3,http://www.auvasa.es/mapa-de-servicios/?linea=951,FF3067,000000
 952,101,U8,Parquesol - Universidad (Campus Miguel Delibes),,3,http://www.auvasa.es/mapa-de-servicios/?linea=952,FF3067,000000
