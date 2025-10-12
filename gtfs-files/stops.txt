@@ -371,7 +371,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 138,742,Calle Adolfo Miaja de la Muela esquina Remigio Cabello Toral,Parada,41.6354016807519,-4.75476236815371,,http://www.auvasa.es/mapa-de-servicios/?parada=742,,,Europe/Madrid
 139,743,Calle Adolfo Miaja de la Muela 6 esquina Hernando de Acuña,Parada,41.6375940654986,-4.75407993336975,,http://www.auvasa.es/mapa-de-servicios/?parada=743,,,Europe/Madrid
 140,744,Calle Mieses frente 40,Parada,41.6535031526874,-4.74427096024068,,http://www.auvasa.es/mapa-de-servicios/?parada=744,,,Europe/Madrid
-141,747,Calle Mieses frente 16,Parada,41.6593980380105,-4.74069999907677,,http://www.auvasa.es/mapa-de-servicios/?parada=747,,,Europe/Madrid
+141,747,Calle Mieses frente 8,Parada,41.6593980380105,-4.74069999907677,,http://www.auvasa.es/mapa-de-servicios/?parada=747,,,Europe/Madrid
 142,749,Calle Mieses 40,Parada,41.6534774405601,-4.74458484372339,,http://www.auvasa.es/mapa-de-servicios/?parada=749,,,Europe/Madrid
 143,751,Calle Moradas 21 esquina Cardenal Cisneros,Parada,41.6609933671542,-4.72214957517823,,http://www.auvasa.es/mapa-de-servicios/?parada=751,,,Europe/Madrid
 144,752,Calle Moradas 31 esquina Nebrija,Parada,41.6624603870818,-4.72049549591626,,http://www.auvasa.es/mapa-de-servicios/?parada=752,,,Europe/Madrid
