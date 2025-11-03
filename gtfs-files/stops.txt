@@ -95,7 +95,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 447,1219,Avenida Entrepinos 57,Parada,41.5703930451878,-4.83661399471623,,http://www.auvasa.es/mapa-de-servicios/?parada=1219,,,Europe/Madrid
 448,1220,Avenida Miguel de Cervantes en Aparcamiento,Parada,41.5704112089125,-4.83971162445835,,http://www.auvasa.es/mapa-de-servicios/?parada=1220,,,Europe/Madrid
 449,1222,Carretera Pesqueruela 1 esquina Carretera a Puente Duero,Parada,41.5841960429895,-4.81949700538097,,http://www.auvasa.es/mapa-de-servicios/?parada=1222,,,Europe/Madrid
-2942,12225,Cementerio de El Carmen,Parada,41.6667039044542,-4.70335904747926,,http://www.auvasa.es/mapa-de-servicios/?parada=12225,,,Europe/Madrid
 2944,12226,Calle Vázquez de Menchaca 1 esq. Daniel del Olmo,Parada,41.626836583026,-4.73087696014544,,http://www.auvasa.es/mapa-de-servicios/?parada=12226,,,Europe/Madrid
 2945,12227,Calle Vázquez de Menchaca 4 esq. Daniel del Olmo,Parada,41.6267878628572,-4.73095398701794,,http://www.auvasa.es/mapa-de-servicios/?parada=12227,,,Europe/Madrid
 2971,12228,Calle Vázquez de Menchaca 34,Parada,41.6205250533928,-4.73477047124863,,http://www.auvasa.es/mapa-de-servicios/?parada=12228,,,Europe/Madrid
