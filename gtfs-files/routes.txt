@@ -13,10 +13,10 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 14,101,14,Plaza de España - Polígono San Cristóbal,,3,http://www.auvasa.es/mapa-de-servicios/?linea=14,887CB9,000000
 16,101,16,Pinar de Jalón - Paseo Zorrilla 71,,3,http://www.auvasa.es/mapa-de-servicios/?linea=16,82D0F7,000000
 17,101,17,Rondilla - Polígono San Cristóbal,,3,http://www.auvasa.es/mapa-de-servicios/?linea=17,C2D400,FFFFFF
-18,101,18,Puente Duero - San Isidro - La Cistérniga,,3,http://www.auvasa.es/mapa-de-servicios/?linea=18,BEBCBD,000000
+18,101,18,Puente Duero - San Isidro - La Cistérniga,,3,http://www.auvasa.es/mapa-de-servicios/?linea=18,E0E0E0,000000
 19,101,19,Puente Duero - Hospital Río Hortega - La Cistérniga,,3,http://www.auvasa.es/mapa-de-servicios/?linea=19,E59351,000000
-21,101,C1,Circular 1: Parquesol -  La Victoria - Parquesol,,3,http://www.auvasa.es/mapa-de-servicios/?linea=21,555553,FFFFFF
-22,101,C2,Circular 2: Parquesol -  La Victoria - Parquesol,,3,http://www.auvasa.es/mapa-de-servicios/?linea=22,6C6C69,FFFFFF
+21,101,C1,Circular 1: Parquesol -  La Victoria - Parquesol,,3,http://www.auvasa.es/mapa-de-servicios/?linea=21,B4B4B4,000000
+22,101,C2,Circular 2: Parquesol -  La Victoria - Parquesol,,3,http://www.auvasa.es/mapa-de-servicios/?linea=22,4A4A4A,FFFFFF
 23,101,23,Paseo Zorrilla 130 - Cañada Real 560,,3,http://www.auvasa.es/mapa-de-servicios/?linea=23,FCC600,FFFFFF
 24,101,24,La Overuela - Pza. Poniente,,3,http://www.auvasa.es/mapa-de-servicios/?linea=24,0F4895,FFFFFF
 26,101,26,Plaza España - San Juan de Dios,,3,http://www.auvasa.es/mapa-de-servicios/?linea=26,80D0F7,000000
