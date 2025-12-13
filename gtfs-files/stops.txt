@@ -1,6 +1,6 @@
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone
 350,1000,Paseo Zorrilla 198 La Rubia,Parada,41.6278187398889,-4.7442846943134,,http://www.auvasa.es/mapa-de-servicios/?parada=1000,,,Europe/Madrid
-351,1001,Paseo Zorrilla 236 Centro Comercial,Parada,41.6240941127112,-4.74727602595223,,http://www.auvasa.es/mapa-de-servicios/?parada=1001,,,Europe/Madrid
+351,1001,Paseo Zorrilla 236 Centro Comercial,Parada,41.6236895579152,-4.74762260923664,,http://www.auvasa.es/mapa-de-servicios/?parada=1001,,,Europe/Madrid
 352,1002,Paseo Zorrilla 39 esquina Puente Colgante,Parada,41.6413111705351,-4.73721519414685,,http://www.auvasa.es/mapa-de-servicios/?parada=1002,,,Europe/Madrid
 353,1003,Paseo Zorrilla 52 esquina Paseo Hospital Militar,Parada,41.6437868696237,-4.73556142304993,,http://www.auvasa.es/mapa-de-servicios/?parada=1003,,,Europe/Madrid
 355,1006,Calle Lucio Zumel esquina Avenida Soria,Parada,41.613388139184,-4.68877305291374,,http://www.auvasa.es/mapa-de-servicios/?parada=1006,,,Europe/Madrid
