@@ -22,7 +22,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 372,1085,Calle Santiago Alba 18,Parada,41.6084523263443,-4.7484933815914,,http://www.auvasa.es/mapa-de-servicios/?parada=1085,,,Europe/Madrid
 373,1086,Paseo Lorenzo Arrazola frente Manuel Mucientes,Parada,41.6110896005332,-4.74500428240056,,http://www.auvasa.es/mapa-de-servicios/?parada=1086,,,Europe/Madrid
 374,1087,Paseo Lorenzo Arrazola esquina Manuel Mucientes,Parada,41.6110873076634,-4.74518951527841,,http://www.auvasa.es/mapa-de-servicios/?parada=1087,,,Europe/Madrid
-375,1088,Calle Anselmo Miguel Nieto esquina Puertas de Valladolid,Parada,41.6138032733103,-4.74849000398617,,http://www.auvasa.es/mapa-de-servicios/?parada=1088,,,Europe/Madrid
+375,1088,Calle Anselmo Miguel Nieto esquina Puertas de Valladolid,Parada,41.6136667149559,-4.74834814677543,,http://www.auvasa.es/mapa-de-servicios/?parada=1088,,,Europe/Madrid
 376,1089,Carretera Viana junto a Pinarillo.,Parada,41.5444585549076,-4.78210199244543,,http://www.auvasa.es/mapa-de-servicios/?parada=1089,,,Europe/Madrid
 377,1090,Calle Peseta esquina Avenida Burgos,Parada,41.6712354695232,-4.7248385387177,,http://www.auvasa.es/mapa-de-servicios/?parada=1090,,,Europe/Madrid
 378,1091,Calle Peseta Punto Limpio,Parada,41.6712631237249,-4.72458387845715,,http://www.auvasa.es/mapa-de-servicios/?parada=1091,,,Europe/Madrid
