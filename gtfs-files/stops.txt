@@ -265,7 +265,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 27,586,Calle Pío Baroja 9 Iglesia San Simón de Rojas,Parada,41.6127559343002,-4.75368199044433,,http://www.auvasa.es/mapa-de-servicios/?parada=586,,,Europe/Madrid
 28,587,Paseo Jardín Botánico frente 6,Parada,41.6687139495051,-4.73265904357861,,http://www.auvasa.es/mapa-de-servicios/?parada=587,,,Europe/Madrid
 29,588,Paseo Jardín Botánico frente Jara,Parada,41.6708965300963,-4.73216707934979,,http://www.auvasa.es/mapa-de-servicios/?parada=588,,,Europe/Madrid
-30,589,Paseo Jardín Botánico 6,Parada,41.668817046142,-4.73235444724402,,http://www.auvasa.es/mapa-de-servicios/?parada=589,,,Europe/Madrid
+30,589,Paseo Jardín Botánico 8,Parada,41.668817046142,-4.73235444724402,,http://www.auvasa.es/mapa-de-servicios/?parada=589,,,Europe/Madrid
 31,590,Paseo Jardín Botánico Parcela 7 frente Centro Salud Victoria,Parada,41.6666970433065,-4.73516699820917,,http://www.auvasa.es/mapa-de-servicios/?parada=590,,,Europe/Madrid
 32,591,Paseo Jardín Botánico Parcela 8 Centro Salud La Victoria,Parada,41.6670739804436,-4.73494066761589,,http://www.auvasa.es/mapa-de-servicios/?parada=591,,,Europe/Madrid
 33,593,Calle Bronce 3 AUVASA,Parada,41.6159270414365,-4.7369629948126,,http://www.auvasa.es/mapa-de-servicios/?parada=593,,,Europe/Madrid
