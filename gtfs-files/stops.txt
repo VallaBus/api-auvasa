@@ -347,7 +347,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 113,703,Paseo Juan Carlos I 109,Parada,41.6513646984341,-4.70434235456534,,http://www.auvasa.es/mapa-de-servicios/?parada=703,,,Europe/Madrid
 114,706,Calle Labradores 1 esquina Plaza Cruz Verde,Parada,41.648057914477,-4.72052141254072,,http://www.auvasa.es/mapa-de-servicios/?parada=706,,,Europe/Madrid
 115,707,Calle Panaderos 42 esq. Pza. Caño Argales,Parada,41.6454713607064,-4.72250372180281,,http://www.auvasa.es/mapa-de-servicios/?parada=707,,,Europe/Madrid
-116,708,Calle Labradores 45 esquina Niña Guapa,Parada,41.6453730450718,-4.72062899764126,,http://www.auvasa.es/mapa-de-servicios/?parada=708,,,Europe/Madrid
+116,708,Calle Labradores 41 esquina Niña Guapa,Parada,41.6456256944608,-4.72071334728473,,http://www.auvasa.es/mapa-de-servicios/?parada=708,,,Europe/Madrid
 118,711,Paseo Arco Ladrillo 31 esquina Paseo Farnesio,Parada,41.6378181073737,-4.73001918004244,,http://www.auvasa.es/mapa-de-servicios/?parada=711,,,Europe/Madrid
 119,715,Avenida Julián Merino Lápice Piscinas Municipales,Parada,41.6102179562615,-4.68229356601798,,http://www.auvasa.es/mapa-de-servicios/?parada=715,,,Europe/Madrid
 120,716,Calle Bajada de La Libertad 10 frente Teatro Calderón,Parada,41.6535601831311,-4.72442701838852,,http://www.auvasa.es/mapa-de-servicios/?parada=716,,,Europe/Madrid
