@@ -440,7 +440,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 213,835,Calle Rastrojo 6 Colegio Giner de los Ríos,Parada,41.6519980414315,-4.74360299936662,,http://www.auvasa.es/mapa-de-servicios/?parada=835,,,Europe/Madrid
 214,836,Calle Real 7,Parada,41.5578441431356,-4.78902332227418,,http://www.auvasa.es/mapa-de-servicios/?parada=836,,,Europe/Madrid
 215,837,Calle Real 106 Plaza Damián Tascón Prieto,Parada,41.5543165277099,-4.79123081546649,,http://www.auvasa.es/mapa-de-servicios/?parada=837,,,Europe/Madrid
-216,838,Calle Real frente 7,Parada,41.5578652743533,-4.78934639264206,,http://www.auvasa.es/mapa-de-servicios/?parada=838,,,Europe/Madrid
+216,838,Calle Real 24,Parada,41.5578652743533,-4.78934639264205,,http://www.auvasa.es/mapa-de-servicios/?parada=838,,,Europe/Madrid
 217,839,Calle Real 85 frente Plaza Damián Tascón Prieto,Parada,41.5543693476786,-4.79052832277031,,http://www.auvasa.es/mapa-de-servicios/?parada=839,,,Europe/Madrid
 218,840,Calle Real de Burgos frente Iglesia San Pedro Apóstol,Parada,41.6573361239158,-4.71814910662773,,http://www.auvasa.es/mapa-de-servicios/?parada=840,,,Europe/Madrid
 219,842,Calle Fidel Recio 1 esquina Alonso Pesquera,Parada,41.6496248440244,-4.72036572568695,,http://www.auvasa.es/mapa-de-servicios/?parada=842,,,Europe/Madrid
