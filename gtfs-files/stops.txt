@@ -410,7 +410,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 186,804,Plaza Juan de Austria Centro Comercial,Parada,41.6376910142079,-4.74034196211913,,http://www.auvasa.es/mapa-de-servicios/?parada=804,,,Europe/Madrid
 187,805,Avenida Gijón 1 esquina Plaza San Bartolomé,Parada,41.660415500507,-4.73498650892178,,http://www.auvasa.es/mapa-de-servicios/?parada=805,,,Europe/Madrid
 188,807,Plaza Caño Argales,Parada,41.6460115272296,-4.7228913010056,,http://www.auvasa.es/mapa-de-servicios/?parada=807,,,Europe/Madrid
-189,808,Plaza Circular 11 Iglesia Corazón de María,Parada,41.646771378011,-4.71714061880288,,http://www.auvasa.es/mapa-de-servicios/?parada=808,,,Europe/Madrid
+189,808,Plaza Circular 11 esquina San Isidro,Parada,41.646771378011,-4.71714061880289,,http://www.auvasa.es/mapa-de-servicios/?parada=808,,,Europe/Madrid
 190,809,Plaza Circular 7 esquina Industrias,Parada,41.6473440386642,-4.71641899559366,,http://www.auvasa.es/mapa-de-servicios/?parada=809,,,Europe/Madrid
 191,811,Plaza Cruz Verde 5,Parada,41.6481013731797,-4.71999806858758,,http://www.auvasa.es/mapa-de-servicios/?parada=811,,,Europe/Madrid
 192,812,Plaza Fuente Dorada,Parada,41.6522325008138,-4.72638534488399,,http://www.auvasa.es/mapa-de-servicios/?parada=812,,,Europe/Madrid
