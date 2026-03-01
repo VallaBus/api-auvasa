@@ -247,4 +247,107 @@
  *         type:
  *           type: string
  *           format: geojson
+ *     Linea:
+ *       type: object
+ *       properties:
+ *         id:
+ *           type: string
+ *           description: Identificador único de la línea en GTFS
+ *         numero:
+ *           type: string
+ *           description: Número o código corto de la línea
+ *         nombre:
+ *           type: string
+ *           description: Nombre largo de la línea
+ *         descripcion:
+ *           type: string
+ *           description: Descripción adicional de la línea
+ *         tipo:
+ *           type: integer
+ *           description: Tipo de transporte (3 = autobús)
+ *         url:
+ *           type: string
+ *           description: URL de la línea en el sitio web del operador
+ *         color:
+ *           type: string
+ *           description: Color hexadecimal de la línea
+ *         colorTexto:
+ *           type: string
+ *           description: Color hexadecimal del texto de la línea
+ *         agencia:
+ *           type: string
+ *           description: Identificador de la agencia operadora
+ *         totalParadas:
+ *           type: integer
+ *           description: Número total de paradas en esta línea
+ *         totalViajes:
+ *           type: integer
+ *           description: Número total de viajes programados para esta línea
+ *     LineaDetallada:
+ *       type: object
+ *       properties:
+ *         id:
+ *           type: string
+ *           description: Identificador único de la línea en GTFS
+ *         numero:
+ *           type: string
+ *           description: Número o código corto de la línea
+ *         nombre:
+ *           type: string
+ *           description: Nombre largo de la línea
+ *         descripcion:
+ *           type: string
+ *           description: Descripción adicional de la línea
+ *         tipo:
+ *           type: integer
+ *           description: Tipo de transporte (3 = autobús)
+ *         url:
+ *           type: string
+ *           description: URL de la línea en el sitio web del operador
+ *         color:
+ *           type: string
+ *           description: Color hexadecimal de la línea
+ *         colorTexto:
+ *           type: string
+ *           description: Color hexadecimal del texto de la línea
+ *         agencia:
+ *           type: string
+ *           description: Identificador de la agencia operadora
+ *         totalParadas:
+ *           type: integer
+ *           description: Número total de paradas en esta línea
+ *         totalViajes:
+ *           type: integer
+ *           description: Número total de viajes programados para esta línea
+ *         paradas:
+ *           type: array
+ *           description: Lista detallada de todas las paradas de la línea, ordenadas por orden de trayecto
+ *           items:
+ *             type: object
+ *             properties:
+ *               id:
+ *                 type: string
+ *                 description: Identificador único de la parada
+ *               codigo:
+ *                 type: string
+ *                 description: Código de la parada
+ *               nombre:
+ *                 type: string
+ *                 description: Nombre de la parada
+ *               latitud:
+ *                 type: number
+ *                 format: float
+ *                 description: Latitud de la parada
+ *               longitud:
+ *                 type: number
+ *                 format: float
+ *                 description: Longitud de la parada
+ *               url:
+ *                 type: string
+ *                 description: URL de la parada
+ *               secuencias:
+ *                 type: array
+ *                 items:
+ *                   type: integer
+ *                 description: Número de secuencia(s) de la parada en la línea
  */

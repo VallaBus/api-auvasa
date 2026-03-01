@@ -11,6 +11,8 @@ const {
   getTripSequence,
   getGbfsParadas,
   checkServicesStatus,
+  getLineas,
+  getLinea,
 } = require('../../lib/v2');
 const { getAllCacheKeys } = require('../../lib/utils');
 
@@ -439,6 +441,65 @@ routes.get('/gbfs/paradas', async (req, res) => {
 routes.get('/status', async (req, res) => {
   const status = await checkServicesStatus();
   return res.json(status);
+});
+
+/**
+ * @openapi
+ * /lineas:
+ *   get:
+ *     tags:
+ *       - Líneas
+ *     summary: Obtiene información de todas las líneas de transporte
+ *     responses:
+ *       200:
+ *         description: Lista de todas las líneas disponibles
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/Linea'
+ */
+routes.get('/lineas', async (req, res) => {
+  const lineas = await getLineas();
+  return res.json(lineas);
+});
+
+/**
+ * @openapi
+ * /lineas/{routeShortName}:
+ *   get:
+ *     tags:
+ *       - Líneas
+ *     summary: Obtiene información detallada de una línea específica
+ *     parameters:
+ *       - name: routeShortName
+ *         in: path
+ *         required: true
+ *         description: Código o número de la línea (ej. 1, 2, C1, etc.)
+ *         schema:
+ *           type: string
+ *           example: "1"
+ *     responses:
+ *       200:
+ *         description: Información detallada de la línea solicitada
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/LineaDetallada'
+ *       404:
+ *         description: Línea no encontrada
+ */
+routes.get('/lineas/:routeShortName', async (req, res) => {
+  const { routeShortName } = req.params;
+  
+  const linea = await getLinea(routeShortName);
+  
+  if (linea.error) {
+    return res.status(404).json(linea);
+  }
+  
+  return res.json(linea);
 });
 
 module.exports = routes;
