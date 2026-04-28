@@ -45,7 +45,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 396,1129,Calle Fuente del Berrocal Gasolinera,Parada,41.6815690451513,-4.74166300571307,,http://www.auvasa.es/mapa-de-servicios/?parada=1129,,,Europe/Madrid
 397,1130,Calle El Barbero de Sevilla esquina Plaza de la Ópera,Parada,41.6839413047703,-4.7417063637152,,http://www.auvasa.es/mapa-de-servicios/?parada=1130,,,Europe/Madrid
 398,1141,Calle Tirso de Molina frente Seminario,Parada,41.6619704754214,-4.7279362604959,,http://www.auvasa.es/mapa-de-servicios/?parada=1141,,,Europe/Madrid
-399,1144,Calle Tórtola esquina Cigüeña,Parada,41.6453673792814,-4.7104552074465,,http://www.auvasa.es/mapa-de-servicios/?parada=1144,,,Europe/Madrid
 400,1150,Carretera Rueda frente 53 Imserso,Parada,41.6226966480513,-4.74171533609628,,http://www.auvasa.es/mapa-de-servicios/?parada=1150,,,Europe/Madrid
 401,1151,Carretera Rueda 81 esquina Tierra de Sepúlveda,Parada,41.6182520910015,-4.74408962982548,,http://www.auvasa.es/mapa-de-servicios/?parada=1151,,,Europe/Madrid
 402,1153,Calle Sotavento esquina Colombia,Parada,41.6329851607453,-4.74741866492433,,http://www.auvasa.es/mapa-de-servicios/?parada=1153,,,Europe/Madrid
@@ -68,7 +67,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 419,1175,Calle Cádiz 4 esquina Bilbao,Parada,41.6437537840278,-4.71458359884938,,http://www.auvasa.es/mapa-de-servicios/?parada=1175,,,Europe/Madrid
 420,1176,Paseo Juan Carlos I esquina Abejaruco,Parada,41.6505689552769,-4.70423383591765,,http://www.auvasa.es/mapa-de-servicios/?parada=1176,,,Europe/Madrid
 421,1177,Camino Viejo del Polvorín 12,Parada,41.649912300396,-4.70420300395825,,http://www.auvasa.es/mapa-de-servicios/?parada=1177,,,Europe/Madrid
-422,1178,Camino Viejo del Polvorín esquina Villabañez,Parada,41.6475899058555,-4.70222350602043,,http://www.auvasa.es/mapa-de-servicios/?parada=1178,,,Europe/Madrid
+422,1178,Camino Viejo del Polvorín esquina Villabáñez,Parada,41.6475899058555,-4.70222350602043,,http://www.auvasa.es/mapa-de-servicios/?parada=1178,,,Europe/Madrid
 423,1181,Plaza Poniente frente Jorge Guillén,Parada,41.6534994933038,-4.73111313889831,,http://www.auvasa.es/mapa-de-servicios/?parada=1181,,,Europe/Madrid
 424,1185,Paseo Filipinos esquina Paseo Zorrilla,Parada,41.6446993777185,-4.73290763723593,,http://www.auvasa.es/mapa-de-servicios/?parada=1185,,,Europe/Madrid
 425,1187,Calle Cádiz 15,Parada,41.6430345345075,-4.71584947280657,,http://www.auvasa.es/mapa-de-servicios/?parada=1187,,,Europe/Madrid
@@ -236,6 +235,9 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 3105,1419,Calle Martín Santos Romero fte. José María Castilviejo,Parada,41.6334843113548,-4.77035567175164,,http://www.auvasa.es/mapa-de-servicios/?parada=1419,,,Europe/Madrid
 3125,1420,Avenida Soria 32,Parada,41.6154373934725,-4.69076111920521,,http://www.auvasa.es/mapa-de-servicios/?parada=1420,,,Europe/Madrid
 3126,1421,Avenida Soria frente 32,Parada,41.6152559162,-4.69076246030972,,http://www.auvasa.es/mapa-de-servicios/?parada=1421,,,Europe/Madrid
+3176,1423,Calle Cometa esquina Astrofísica,Parada,41.6544697405815,-4.69887432342935,,http://www.auvasa.es/mapa-de-servicios/?parada=1423,,,Europe/Madrid
+3179,1424,Calle Aguanieves fte. Autillo,Parada,41.6491462075604,-4.69916045673816,,http://www.auvasa.es/mapa-de-servicios/?parada=1424,,,Europe/Madrid
+3180,1425,Calle Aguanieves esq. Autillo,Parada,41.6493025367298,-4.69903975733244,,http://www.auvasa.es/mapa-de-servicios/?parada=1425,,,Europe/Madrid
 1,550,Calle Hernando de Acuña 1 esquina Mateo Seoane S.,Parada,41.6379983836047,-4.75574461249468,,http://www.auvasa.es/mapa-de-servicios/?parada=550,,,Europe/Madrid
 2,551,Calle Hernando de Acuña 13 esquina Manuel Silvela,Parada,41.637992139995,-4.75843566197342,,http://www.auvasa.es/mapa-de-servicios/?parada=551,,,Europe/Madrid
 3,552,Calle Hernando de Acuña 18 esquina Manuel Silvela,Parada,41.6381753268001,-4.75855368880795,,http://www.auvasa.es/mapa-de-servicios/?parada=552,,,Europe/Madrid
@@ -254,7 +256,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 16,569,Avenida Miguel Ángel Blanco frente 23 esq. Pío Río Hortega,Parada,41.6516720414533,-4.74118199906222,,http://www.auvasa.es/mapa-de-servicios/?parada=569,,,Europe/Madrid
 17,570,Avenida Miguel Ángel Blanco Plaza del Milenio,Parada,41.6496470438782,-4.73532000178281,,http://www.auvasa.es/mapa-de-servicios/?parada=570,,,Europe/Madrid
 18,572,Avenida Miguel Ángel Blanco 5 esquina Avenida Salamanca,Parada,41.6511520410935,-4.74015199598649,,http://www.auvasa.es/mapa-de-servicios/?parada=572,,,Europe/Madrid
-19,573,Calle Azalea esquina Flor de Acebo,Parada,41.6448670371903,-4.69356500503573,,http://www.auvasa.es/mapa-de-servicios/?parada=573,,,Europe/Madrid
+19,573,Calle Azalea frente 6,Parada,41.6448670371903,-4.69356500503573,,http://www.auvasa.es/mapa-de-servicios/?parada=573,,,Europe/Madrid
 20,574,Calle Azalea esquina Alhelí,Parada,41.6447872451248,-4.69355031090117,,http://www.auvasa.es/mapa-de-servicios/?parada=574,,,Europe/Madrid
 21,575,Calle Azucena 18 esquina Dalia,Parada,41.6436830369398,-4.69417900331991,,http://www.auvasa.es/mapa-de-servicios/?parada=575,,,Europe/Madrid
 22,576,Calle Bálago esquina Avenida Ramón Pradera,Parada,41.6576410392042,-4.73734500056184,,http://www.auvasa.es/mapa-de-servicios/?parada=576,,,Europe/Madrid
