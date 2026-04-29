@@ -61,7 +61,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 413,1168,Camino Viejo Simancas 15 esquina Vereda,Parada,41.6273438123642,-4.74564367716578,,http://www.auvasa.es/mapa-de-servicios/?parada=1168,,,Europe/Madrid
 414,1169,Avenida Salamanca esquina Puente Juan de Austria,Parada,41.6392319620445,-4.74515937618469,,http://www.auvasa.es/mapa-de-servicios/?parada=1169,,,Europe/Madrid
 415,1170,Calle Santa María de la Cabeza frente 39,Parada,41.6466013009608,-4.69960331734697,,http://www.auvasa.es/mapa-de-servicios/?parada=1170,,,Europe/Madrid
-416,1171,Calle Santa María de la Cabeza 37,Parada,41.6465898468627,-4.69975768582457,,http://www.auvasa.es/mapa-de-servicios/?parada=1171,,,Europe/Madrid
+416,1171,Calle Santa María de la Cabeza 39,Parada,41.6465898468628,-4.69975768582457,,http://www.auvasa.es/mapa-de-servicios/?parada=1171,,,Europe/Madrid
 417,1172,Calle Santa María de la Cabeza 9,Parada,41.642329203865,-4.70428528190512,,http://www.auvasa.es/mapa-de-servicios/?parada=1172,,,Europe/Madrid
 418,1173,Calle Santa María de la Cabeza frente 9,Parada,41.6423283277343,-4.70407299984795,,http://www.auvasa.es/mapa-de-servicios/?parada=1173,,,Europe/Madrid
 419,1175,Calle Cádiz 4 esquina Bilbao,Parada,41.6437537840278,-4.71458359884938,,http://www.auvasa.es/mapa-de-servicios/?parada=1175,,,Europe/Madrid
@@ -235,7 +235,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 3105,1419,Calle Martín Santos Romero fte. José María Castilviejo,Parada,41.6334843113548,-4.77035567175164,,http://www.auvasa.es/mapa-de-servicios/?parada=1419,,,Europe/Madrid
 3125,1420,Avenida Soria 32,Parada,41.6154373934725,-4.69076111920521,,http://www.auvasa.es/mapa-de-servicios/?parada=1420,,,Europe/Madrid
 3126,1421,Avenida Soria frente 32,Parada,41.6152559162,-4.69076246030972,,http://www.auvasa.es/mapa-de-servicios/?parada=1421,,,Europe/Madrid
-3176,1423,Calle Cometa esquina Astrofísica,Parada,41.6544697405815,-4.69887432342935,,http://www.auvasa.es/mapa-de-servicios/?parada=1423,,,Europe/Madrid
+3176,1423,Calle Cometa esquina Astrofísica,Parada,41.6545253162973,-4.69999194153306,,http://www.auvasa.es/mapa-de-servicios/?parada=1423,,,Europe/Madrid
 3179,1424,Calle Aguanieves fte. Autillo,Parada,41.6491462075604,-4.69916045673816,,http://www.auvasa.es/mapa-de-servicios/?parada=1424,,,Europe/Madrid
 3180,1425,Calle Aguanieves esq. Autillo,Parada,41.6493025367298,-4.69903975733244,,http://www.auvasa.es/mapa-de-servicios/?parada=1425,,,Europe/Madrid
 1,550,Calle Hernando de Acuña 1 esquina Mateo Seoane S.,Parada,41.6379983836047,-4.75574461249468,,http://www.auvasa.es/mapa-de-servicios/?parada=550,,,Europe/Madrid
