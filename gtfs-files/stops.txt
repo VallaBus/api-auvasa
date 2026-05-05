@@ -352,7 +352,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 116,708,Calle Labradores 41,Parada,41.6456256944608,-4.72071334728473,,http://www.auvasa.es/mapa-de-servicios/?parada=708,,,Europe/Madrid
 118,711,Paseo Arco Ladrillo 31 esquina Paseo Farnesio,Parada,41.6378181073737,-4.73001918004244,,http://www.auvasa.es/mapa-de-servicios/?parada=711,,,Europe/Madrid
 119,715,Avenida Julián Merino Lápice Piscinas Municipales,Parada,41.6102179562615,-4.68229356601798,,http://www.auvasa.es/mapa-de-servicios/?parada=715,,,Europe/Madrid
-120,716,Calle Magaña esquina Solanilla,Parada,41.6535601831311,-4.72442701838852,,http://www.auvasa.es/mapa-de-servicios/?parada=716,,,Europe/Madrid
+120,716,Calle Magaña esquina Solanilla,Parada,41.6543549713802,-4.72339689740511,,http://www.auvasa.es/mapa-de-servicios/?parada=716,,,Europe/Madrid
 121,717,Calle López Gómez 13 esquina Fray Luis de León,Parada,41.6507902960155,-4.72339893524874,,http://www.auvasa.es/mapa-de-servicios/?parada=717,,,Europe/Madrid
 122,719,Calle Antonio Machado esquina Pío Baroja,Parada,41.613874199514,-4.75312396817091,,http://www.auvasa.es/mapa-de-servicios/?parada=719,,,Europe/Madrid
 123,720,Calle Antonio Machado esquina José María Pemán,Parada,41.6142226461006,-4.75368427463568,,http://www.auvasa.es/mapa-de-servicios/?parada=720,,,Europe/Madrid
