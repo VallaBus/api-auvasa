@@ -292,6 +292,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 52,624,Paseo del Cauce frente Ing. Industriales,Parada,41.6562232285455,-4.71109018582816,,http://www.auvasa.es/mapa-de-servicios/?parada=624,,,Europe/Madrid
 53,625,Paseo del Cauce frente Centro Salud Pilarica,Parada,41.6537990418717,-4.71141600466154,,http://www.auvasa.es/mapa-de-servicios/?parada=625,,,Europe/Madrid
 54,627,Paseo del Cauce Ing. Industriales,Parada,41.6562071630976,-4.71096490590349,,http://www.auvasa.es/mapa-de-servicios/?parada=627,,,Europe/Madrid
+55,628,Paseo del Cauce Centro Salud Pilarica,Parada,41.6535095659119,-4.71128981341189,,http://www.auvasa.es/mapa-de-servicios/?parada=628,,,Europe/Madrid
 56,629,Calle Cerrada 1 esquina Santa Clara,Parada,41.6593236859135,-4.71979793012656,,http://www.auvasa.es/mapa-de-servicios/?parada=629,,,Europe/Madrid
 59,632,Avenida Los Cerros Pza. Cine Castilla,Parada,41.6550976780532,-4.7461165291767,,http://www.auvasa.es/mapa-de-servicios/?parada=632,,,Europe/Madrid
 60,633,Avenida Los Cerros fte. Pza. Cine Castilla,Parada,41.6552562346309,-4.74608528214783,,http://www.auvasa.es/mapa-de-servicios/?parada=633,,,Europe/Madrid
@@ -570,4 +571,3 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 347,997,Paseo Zorrilla 1 antiguo Hospital Militar,Parada,41.6444810352843,-4.73420023719185,,http://www.auvasa.es/mapa-de-servicios/?parada=997,,,Europe/Madrid
 348,998,Paseo Zorrilla 130 Centro Comercial,Parada,41.6370320436707,-4.7393199970302,,http://www.auvasa.es/mapa-de-servicios/?parada=998,,,Europe/Madrid
 349,999,Paseo Zorrilla 133 La Rubia,Parada,41.6277797829535,-4.74327838843489,,http://www.auvasa.es/mapa-de-servicios/?parada=999,,,Europe/Madrid
-55,DS00628,Paseo del Cauce Centro Salud Pilarica,Parada,41.6535095659119,-4.71128981341189,,http://www.auvasa.es/mapa-de-servicios/?parada=DS00628,,,Europe/Madrid
