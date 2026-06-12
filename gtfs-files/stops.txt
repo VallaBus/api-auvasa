@@ -510,12 +510,12 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 284,915,Camino Viejo Simancas frente INEA,Parada,41.6036393017146,-4.79233511511213,,http://www.auvasa.es/mapa-de-servicios/?parada=915,,,Europe/Madrid
 285,916,Camino Viejo Simancas 21 Centro Educativo,Parada,41.6256900438205,-4.74854899588806,,http://www.auvasa.es/mapa-de-servicios/?parada=916,,,Europe/Madrid
 286,917,Camino Viejo Simancas frente Vega de Valdetronco,Parada,41.6196290543543,-4.75901289324259,,http://www.auvasa.es/mapa-de-servicios/?parada=917,,,Europe/Madrid
-287,918,Camino Viejo Simancas frente ES Imagen y Sonido,Parada,41.6076044195379,-4.78460787933217,,http://www.auvasa.es/mapa-de-servicios/?parada=918,,,Europe/Madrid
+287,918,Camino Viejo Simancas frente ES Imagen y Sonido,Parada,41.6069996642944,-4.78582397114716,,http://www.auvasa.es/mapa-de-servicios/?parada=918,,,Europe/Madrid
 288,919,Camino Viejo Simancas INEA,Parada,41.603597552919,-4.79278035351791,,http://www.auvasa.es/mapa-de-servicios/?parada=919,,,Europe/Madrid
 289,920,Camino Viejo Simancas Barrio La Rubia,Parada,41.6283742016624,-4.74396880227592,,http://www.auvasa.es/mapa-de-servicios/?parada=920,,,Europe/Madrid
 290,921,Camino Viejo Simancas 34 Barrio San Adrián,Parada,41.6253996406184,-4.74937893180748,,http://www.auvasa.es/mapa-de-servicios/?parada=921,,,Europe/Madrid
 291,922,Camino Viejo Simancas esquina Vega de Valdetronco,Parada,41.6197965932107,-4.75844749943468,,http://www.auvasa.es/mapa-de-servicios/?parada=922,,,Europe/Madrid
-292,923,Camino Viejo Simancas ES Imagen y Sonido,Parada,41.607240458702,-4.78497070438008,,http://www.auvasa.es/mapa-de-servicios/?parada=923,,,Europe/Madrid
+292,923,Camino Viejo Simancas ES Imagen y Sonido,Parada,41.6070989381122,-4.78529825818001,,http://www.auvasa.es/mapa-de-servicios/?parada=923,,,Europe/Madrid
 293,924,Camino Viejo Simancas puente,Parada,41.5877906945616,-4.82252655911185,,http://www.auvasa.es/mapa-de-servicios/?parada=924,,,Europe/Madrid
 294,926,Avenida Zamora frente Colegio San Agustín,Parada,41.6180575679229,-4.72825957572903,,http://www.auvasa.es/mapa-de-servicios/?parada=926,,,Europe/Madrid
 300,933,Carretera Soria frente Polígono San Cristóbal,Parada,41.6269940387539,-4.69966199965909,,http://www.auvasa.es/mapa-de-servicios/?parada=933,,,Europe/Madrid
