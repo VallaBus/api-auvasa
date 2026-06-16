@@ -22,7 +22,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 373,1086,Paseo Lorenzo Arrazola frente Manuel Mucientes,Parada,41.6110896005332,-4.74500428240056,,http://www.auvasa.es/mapa-de-servicios/?parada=1086,,,Europe/Madrid
 374,1087,Paseo Lorenzo Arrazola esquina Manuel Mucientes,Parada,41.6110873076634,-4.74518951527841,,http://www.auvasa.es/mapa-de-servicios/?parada=1087,,,Europe/Madrid
 375,1088,Calle Anselmo Miguel Nieto esquina Puertas de Valladolid,Parada,41.6136667149559,-4.74834814677543,,http://www.auvasa.es/mapa-de-servicios/?parada=1088,,,Europe/Madrid
-376,1089,Carretera Viana junto a Pinarillo.,Parada,41.5444585549076,-4.78210199244543,,http://www.auvasa.es/mapa-de-servicios/?parada=1089,,,Europe/Madrid
+376,1089,Carretera a Viana Urb. El Pinarillo.,Parada,41.5443886576981,-4.78196561347734,,http://www.auvasa.es/mapa-de-servicios/?parada=1089,,,Europe/Madrid
 377,1090,Calle Peseta esquina Avenida Burgos,Parada,41.6712354695232,-4.7248385387177,,http://www.auvasa.es/mapa-de-servicios/?parada=1090,,,Europe/Madrid
 378,1091,Calle Peseta Punto Limpio,Parada,41.6712631237249,-4.72458387845715,,http://www.auvasa.es/mapa-de-servicios/?parada=1091,,,Europe/Madrid
 379,1092,Avenida Euro frente Mercaolid,Parada,41.6737704649484,-4.71933937434158,,http://www.auvasa.es/mapa-de-servicios/?parada=1092,,,Europe/Madrid
@@ -250,7 +250,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 16,569,Avenida Miguel Ángel Blanco frente 23 esq. Pío Río Hortega,Parada,41.6516720414533,-4.74118199906222,,http://www.auvasa.es/mapa-de-servicios/?parada=569,,,Europe/Madrid
 17,570,Avenida Miguel Ángel Blanco Plaza del Milenio,Parada,41.6496470438782,-4.73532000178281,,http://www.auvasa.es/mapa-de-servicios/?parada=570,,,Europe/Madrid
 18,572,Avenida Miguel Ángel Blanco 5 esquina Avenida Salamanca,Parada,41.6511520410935,-4.74015199598649,,http://www.auvasa.es/mapa-de-servicios/?parada=572,,,Europe/Madrid
-19,573,Calle Azalea frente 6,Parada,41.6448670371903,-4.69356500503573,,http://www.auvasa.es/mapa-de-servicios/?parada=573,,,Europe/Madrid
+19,573,Calle Azalea frente 6,Parada,41.6447397735942,-4.69320461161863,,http://www.auvasa.es/mapa-de-servicios/?parada=573,,,Europe/Madrid
 20,574,Calle Azalea esquina Alhelí,Parada,41.6447872451248,-4.69355031090117,,http://www.auvasa.es/mapa-de-servicios/?parada=574,,,Europe/Madrid
 21,575,Calle Azucena 18 esquina Dalia,Parada,41.6436830369398,-4.69417900331991,,http://www.auvasa.es/mapa-de-servicios/?parada=575,,,Europe/Madrid
 22,576,Calle Bálago esquina Avenida Ramón Pradera,Parada,41.6576410392042,-4.73734500056184,,http://www.auvasa.es/mapa-de-servicios/?parada=576,,,Europe/Madrid
@@ -363,7 +363,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 133,734,Calle Vázquez de Menchaca 33,Parada,41.6164796596336,-4.73666635712314,,http://www.auvasa.es/mapa-de-servicios/?parada=734,,,Europe/Madrid
 134,735,Calle Vázquez de Menchaca 40 esquina Avenida Zamora,Parada,41.6187523760059,-4.73568252459711,,http://www.auvasa.es/mapa-de-servicios/?parada=735,,,Europe/Madrid
 135,736,Calle Vázquez de Menchaca 19,Parada,41.6204510411647,-4.73455399874407,,http://www.auvasa.es/mapa-de-servicios/?parada=736,,,Europe/Madrid
-136,737,Calle Vázquez de Menchaca 5,Parada,41.6246200372996,-4.73174899854382,,http://www.auvasa.es/mapa-de-servicios/?parada=737,,,Europe/Madrid
+136,737,Calle Vázquez de Menchaca 5,Parada,41.6251000700661,-4.73152801403666,,http://www.auvasa.es/mapa-de-servicios/?parada=737,,,Europe/Madrid
 137,738,Calle Vázquez de Menchaca 9,Parada,41.6225430366382,-4.73347400459987,,http://www.auvasa.es/mapa-de-servicios/?parada=738,,,Europe/Madrid
 138,742,Calle Adolfo Miaja de la Muela esquina Remigio Cabello Toral,Parada,41.6354016807519,-4.75476236815371,,http://www.auvasa.es/mapa-de-servicios/?parada=742,,,Europe/Madrid
 139,743,Calle Adolfo Miaja de la Muela 6 esquina Hernando de Acuña,Parada,41.6375940654986,-4.75407993336975,,http://www.auvasa.es/mapa-de-servicios/?parada=743,,,Europe/Madrid
