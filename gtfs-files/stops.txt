@@ -214,7 +214,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 575,1403,Calle Cuesta Redonda Piscinas Municipales,Parada,41.6104349379463,-4.68186796267344,,http://www.auvasa.es/mapa-de-servicios/?parada=1403,,,Europe/Madrid
 528,1404,Calle Cometa esq. Cosmologia,Parada,41.6551863573248,-4.6997721211106,,http://www.auvasa.es/mapa-de-servicios/?parada=1404,,,Europe/Madrid
 2411,1405,Plaza Doctor Quemada frente Iglesia Santo Domingo de Guzmán,Parada,41.6328100684792,-4.74135814894217,,http://www.auvasa.es/mapa-de-servicios/?parada=1405,,,Europe/Madrid
-2922,1406,Calle Adolfo Miaja de la Muela frente Nuñez de Guzman,Parada,41.6349868187605,-4.75552812273529,,http://www.auvasa.es/mapa-de-servicios/?parada=1406,,,Europe/Madrid
+2922,1406,Calle Adolfo Miaja de la Muela frente Núñez de Guzmán,Parada,41.6349868187605,-4.75552812273529,,http://www.auvasa.es/mapa-de-servicios/?parada=1406,,,Europe/Madrid
 2915,1407,Paseo del Obregon esq Brezo,Parada,41.6723886563079,-4.72932840722739,,http://www.auvasa.es/mapa-de-servicios/?parada=1407,,,Europe/Madrid
 2917,1408,El Pinar de Antequera hacia Pte Duero,Parada,41.5879349661796,-4.75586555196679,,http://www.auvasa.es/mapa-de-servicios/?parada=1408,,,Europe/Madrid
 2919,1409,Calle Andrómeda esquina Orden de Malta,Parada,41.6551270078788,-4.70514614640447,,http://www.auvasa.es/mapa-de-servicios/?parada=1409,,,Europe/Madrid
