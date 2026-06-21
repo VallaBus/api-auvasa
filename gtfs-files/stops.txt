@@ -229,6 +229,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 3105,1419,Calle Martín Santos Romero fte. José María Castilviejo,Parada,41.6334843113548,-4.77035567175164,,http://www.auvasa.es/mapa-de-servicios/?parada=1419,,,Europe/Madrid
 3125,1420,Avenida Soria 32,Parada,41.6154373934725,-4.69076111920521,,http://www.auvasa.es/mapa-de-servicios/?parada=1420,,,Europe/Madrid
 3126,1421,Avenida Soria frente 32,Parada,41.6152559162,-4.69076246030972,,http://www.auvasa.es/mapa-de-servicios/?parada=1421,,,Europe/Madrid
+3134,1422,José Garrote Tebar esquina Eusebio González Suárez,Parada,41.6341503044481,-4.75596842840634,,http://www.auvasa.es/mapa-de-servicios/?parada=1422,,,Europe/Madrid
 3176,1423,Calle Cometa esquina Astrofísica,Parada,41.6545253162973,-4.69999194153306,,http://www.auvasa.es/mapa-de-servicios/?parada=1423,,,Europe/Madrid
 3179,1424,Calle Aguanieves frente Autillo,Parada,41.6491462075604,-4.69916045673816,,http://www.auvasa.es/mapa-de-servicios/?parada=1424,,,Europe/Madrid
 3180,1425,Calle Aguanieves esquina Autillo,Parada,41.6493025367298,-4.69903975733244,,http://www.auvasa.es/mapa-de-servicios/?parada=1425,,,Europe/Madrid
