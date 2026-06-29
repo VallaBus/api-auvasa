@@ -5,18 +5,61 @@
 
 const request = require('supertest');
 const express = require('express');
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
 const { router: healthRouter, updateGtfsHealth } = require('../routes/health');
 
 describe('Health Check Endpoints (Simplified)', () => {
   let app;
+  let originalGtfsDir;
+  let tmpGtfsDir;
+
+  const formatDate = (date) => {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+
+    return `${year}${month}${day}`;
+  };
 
   beforeEach(() => {
+    originalGtfsDir = process.env.GTFS_DIR;
+    tmpGtfsDir = fs.mkdtempSync(path.join(os.tmpdir(), 'api-auvasa-gtfs-'));
+    const staticDir = path.join(tmpGtfsDir, 'static');
+    fs.mkdirSync(staticDir, { recursive: true });
+
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1);
+
+    fs.writeFileSync(
+      path.join(staticDir, 'calendar_dates.txt'),
+      [
+        'service_id,date,exception_type',
+        `TEST_SERVICE,${formatDate(today)},1`,
+        `TEST_SERVICE,${formatDate(tomorrow)},1`,
+      ].join('\n'),
+    );
+
+    process.env.GTFS_DIR = path.relative(process.cwd(), tmpGtfsDir);
+
     // Crear app Express con el router de health
     app = express();
     app.use('/health', healthRouter);
     
     // Reset health status by simulating a successful update
     updateGtfsHealth(true);
+  });
+
+  afterEach(() => {
+    if (originalGtfsDir === undefined) {
+      delete process.env.GTFS_DIR;
+    } else {
+      process.env.GTFS_DIR = originalGtfsDir;
+    }
+
+    fs.rmSync(tmpGtfsDir, { recursive: true, force: true });
   });
 
   describe('GET /health - Health check general', () => {
@@ -34,6 +77,11 @@ describe('Health Check Endpoints (Simplified)', () => {
           gtfs: {
             status: 'HEALTHY',
             lastUpdate: expect.any(Number),
+            static: expect.objectContaining({
+              status: 'HEALTHY',
+              hasToday: true,
+              hasTomorrow: true,
+            }),
             nativeTimeout: true
           }
         }
@@ -64,6 +112,11 @@ describe('Health Check Endpoints (Simplified)', () => {
         timestamp: expect.any(Number),
         lastSuccessfulUpdate: expect.any(Number),
         lastError: null,
+        static: expect.objectContaining({
+          status: 'HEALTHY',
+          hasToday: true,
+          hasTomorrow: true,
+        }),
         totalUpdates: expect.any(Number)
       });
       
@@ -102,6 +155,9 @@ describe('Health Check Endpoints (Simplified)', () => {
           timestamp: expect.any(Number),
           lastSuccessAgo: expect.any(Number),
           totalUpdates: expect.any(Number),
+          static: expect.objectContaining({
+            status: 'HEALTHY',
+          }),
           nativeTimeout: true,
           gtfsVersion: expect.any(String)
         })
