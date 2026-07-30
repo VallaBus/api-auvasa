@@ -1,6 +1,9 @@
 const fs = require('fs');
-const decompress = require('decompress');
-const { downloadGtfsStatic, moveFiles } = require('./lib/gtfs/helpers');
+const {
+  downloadGtfsStatic,
+  extractZip,
+  moveFiles,
+} = require('./lib/gtfs/helpers');
 
 (async () => {
   try {
@@ -9,9 +12,10 @@ const { downloadGtfsStatic, moveFiles } = require('./lib/gtfs/helpers');
     // Create gtfs-files dir
     if (!fs.existsSync('gtfs-files')) fs.mkdirSync('gtfs-files');
     // Descargar el archivo zip
-    await downloadGtfsStatic('tmp/gtfs.zip');
+    const result = await downloadGtfsStatic('tmp/gtfs.zip');
+    if (!result.success) throw new Error(result.error);
     // Descomprimir el archivo zip
-    await decompress('tmp/gtfs.zip', 'tmp/gtfs');
+    await extractZip('tmp/gtfs.zip', 'tmp/gtfs');
     // Move files to gtfs-files dir
     moveFiles('tmp/gtfs', 'gtfs-files');
     // Remove tmp dir

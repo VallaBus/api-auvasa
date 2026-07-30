@@ -7,7 +7,7 @@ const router = express.Router();
 const fs = require('fs');
 const path = require('path');
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 
 // Simple health tracking without robust wrapper
 let lastGtfsUpdate = null;
@@ -24,7 +24,12 @@ const formatDate = (date) => {
 
 const getStaticGtfsHealth = () => {
   const gtfsDir = process.env.GTFS_DIR || 'lib/gtfs';
-  const calendarDatesPath = path.join(process.cwd(), gtfsDir, 'static', 'calendar_dates.txt');
+  const calendarDatesPath = path.join(
+    process.cwd(),
+    gtfsDir,
+    'static',
+    'calendar_dates.txt',
+  );
   const now = new Date();
   const today = formatDate(now);
   const tomorrowDate = new Date(now);
@@ -43,7 +48,10 @@ const getStaticGtfsHealth = () => {
 
   const stats = fs.statSync(calendarDatesPath);
   const uniqueDates = new Set();
-  const lines = fs.readFileSync(calendarDatesPath, 'utf8').trim().split(/\r?\n/);
+  const lines = fs
+    .readFileSync(calendarDatesPath, 'utf8')
+    .trim()
+    .split(/\r?\n/);
 
   lines.slice(1).forEach((line) => {
     const [, date] = line.split(',');
@@ -76,7 +84,10 @@ function updateGtfsHealth(success, error = null) {
     lastGtfsUpdate = Date.now();
     lastGtfsError = null;
   } else {
-    lastGtfsError = { timestamp: Date.now(), error: error?.message || 'Unknown error' };
+    lastGtfsError = {
+      timestamp: Date.now(),
+      error: error?.message || 'Unknown error',
+    };
   }
   gtfsUpdateCount++;
 }
@@ -91,7 +102,7 @@ function updateGtfsHealth(success, error = null) {
  *     description: |
  *       Proporciona información detallada sobre el estado de salud del sistema GTFS Realtime,
  *       incluyendo métricas de circuit breakers, errores recientes y tiempos de respuesta.
- *       
+ *
  *       **Estados de salud:**
  *       - `HEALTHY`: Sistema funcionando correctamente
  *       - `WARNING`: Algunos errores pero sistema funcional  
@@ -179,26 +190,31 @@ router.get('/gtfs', (req, res) => {
   try {
     const now = Date.now();
     const timeSinceLastUpdate = lastGtfsUpdate ? now - lastGtfsUpdate : null;
-    const timeSinceLastError = lastGtfsError ? now - lastGtfsError.timestamp : null;
+    const timeSinceLastError = lastGtfsError
+      ? now - lastGtfsError.timestamp
+      : null;
     const staticGtfs = getStaticGtfsHealth();
-    
+
     // Determine health status
     let status = 'HEALTHY';
     let httpStatusCode = 200;
-    
+
     if (staticGtfs.status === 'CRITICAL') {
       status = 'CRITICAL';
       httpStatusCode = 503;
-    } else if (lastGtfsError && timeSinceLastError < 300000) { // Error in last 5 minutes
+    } else if (lastGtfsError && timeSinceLastError < 300000) {
+      // Error in last 5 minutes
       status = 'CRITICAL';
       httpStatusCode = 503;
-    } else if (timeSinceLastUpdate && timeSinceLastUpdate > 300000) { // No update in 5 minutes
+    } else if (timeSinceLastUpdate && timeSinceLastUpdate > 300000) {
+      // No update in 5 minutes
       status = 'DEGRADED';
       httpStatusCode = 503;
-    } else if (timeSinceLastUpdate && timeSinceLastUpdate > 120000) { // No update in 2 minutes
+    } else if (timeSinceLastUpdate && timeSinceLastUpdate > 120000) {
+      // No update in 2 minutes
       status = 'WARNING';
     }
-    
+
     const healthStatus = {
       status,
       timestamp: now,
@@ -206,9 +222,11 @@ router.get('/gtfs', (req, res) => {
       lastError: lastGtfsError,
       static: staticGtfs,
       totalUpdates: gtfsUpdateCount,
-      timeSinceLastUpdate: timeSinceLastUpdate ? Math.floor(timeSinceLastUpdate / 1000) : null
+      timeSinceLastUpdate: timeSinceLastUpdate
+        ? Math.floor(timeSinceLastUpdate / 1000)
+        : null,
     };
-    
+
     res.status(httpStatusCode).json(healthStatus);
   } catch (error) {
     console.error('Error getting GTFS health status:', error);
@@ -216,7 +234,7 @@ router.get('/gtfs', (req, res) => {
       status: 'ERROR',
       timestamp: Date.now(),
       error: 'Unable to retrieve health status',
-      message: error.message
+      message: error.message,
     });
   }
 });
@@ -229,7 +247,7 @@ router.get('/gtfs', (req, res) => {
  *       - Health
  *     summary: Métricas detalladas del sistema GTFS
  *     description: |
- *       Proporciona métricas detalladas del sistema GTFS Realtime para monitoreo 
+ *       Proporciona métricas detalladas del sistema GTFS Realtime para monitoreo
  *       y alerting automático.
  *     responses:
  *       200:
@@ -261,26 +279,26 @@ router.get('/gtfs/metrics', (req, res) => {
     const staticGtfs = getStaticGtfsHealth();
     const metrics = {
       timestamp: now,
-      lastSuccessAgo: lastGtfsUpdate 
+      lastSuccessAgo: lastGtfsUpdate
         ? Math.floor((now - lastGtfsUpdate) / 1000)
         : null,
-      lastErrorAgo: lastGtfsError 
+      lastErrorAgo: lastGtfsError
         ? Math.floor((now - lastGtfsError.timestamp) / 1000)
         : null,
       totalUpdates: gtfsUpdateCount,
       static: staticGtfs,
-      hasRecentError: lastGtfsError && (now - lastGtfsError.timestamp) < 300000,
+      hasRecentError: lastGtfsError && now - lastGtfsError.timestamp < 300000,
       nativeTimeout: true, // Indicates we're using native GTFS timeout
-      gtfsVersion: '4.18.0' // Current version with native timeout support
+      gtfsVersion: '4.20.0', // Current version with native timeout support
     };
-    
+
     res.json(metrics);
   } catch (error) {
     console.error('Error getting GTFS metrics:', error);
     res.status(500).json({
       error: 'Unable to retrieve metrics',
       message: error.message,
-      timestamp: Date.now()
+      timestamp: Date.now(),
     });
   }
 });
@@ -318,17 +336,17 @@ router.get('/', (req, res) => {
   const now = Date.now();
   const timeSinceLastUpdate = lastGtfsUpdate ? now - lastGtfsUpdate : null;
   const staticGtfs = getStaticGtfsHealth();
-  
+
   // Si GTFS está crítico, considerar todo el servicio como degradado
   let overallStatus = 'OK';
   let httpStatusCode = 200;
   let gtfsStatus = 'HEALTHY';
-  
+
   if (staticGtfs.status === 'CRITICAL') {
     overallStatus = 'DEGRADED';
     httpStatusCode = 503;
     gtfsStatus = 'CRITICAL';
-  } else if (lastGtfsError && (now - lastGtfsError.timestamp) < 300000) {
+  } else if (lastGtfsError && now - lastGtfsError.timestamp < 300000) {
     overallStatus = 'DEGRADED';
     httpStatusCode = 503;
     gtfsStatus = 'CRITICAL';
@@ -337,7 +355,7 @@ router.get('/', (req, res) => {
     httpStatusCode = 503;
     gtfsStatus = 'DEGRADED';
   }
-  
+
   res.status(httpStatusCode).json({
     status: overallStatus,
     timestamp: now,
@@ -348,9 +366,9 @@ router.get('/', (req, res) => {
         status: gtfsStatus,
         lastUpdate: lastGtfsUpdate,
         static: staticGtfs,
-        nativeTimeout: true
-      }
-    }
+        nativeTimeout: true,
+      },
+    },
   });
 });
 
