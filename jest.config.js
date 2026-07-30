@@ -9,7 +9,9 @@ module.exports = {
   testMatch: [
     '**/tests/circuit-breaker.test.js',
     '**/tests/robust-gtfs-wrapper.test.js',
-    '**/tests/health-endpoints.test.js'
+    '**/tests/health-endpoints.test.js',
+    '**/tests/realtime-quality.test.js',
+    '**/tests/realtime-scheduler.test.js'
   ],
   setupFilesAfterEnv: [],
   testTimeout: 30000,
