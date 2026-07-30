@@ -1,4 +1,9 @@
 node_modules
+.git
+.env
+coverage
+tests
+tmp
 lib/gtfs/static/**.txt
 !lib/gtfs/static/agency.txt
 lib/gtfs/database.sqlite

@@ -11,7 +11,7 @@ Usando los datos abiertos GTFS, revisa la sección [Licencia](#licencia) para m�
 
 ## Configuración del entorno de desarrollo
 
-Antes de ejecutar la aplicación, asegúrate de tener instalado [Node.js](https://nodejs.org/). También necesitarás configurar las variables de entorno en un archivo `.env` basado en el archivo `.env.example` proporcionado.
+Antes de ejecutar la aplicación, asegúrate de tener instalado [Node.js](https://nodejs.org/). También necesitarás configurar las variables de entorno en un archivo `.env` basado en el archivo `.env.template` proporcionado.
 
 ```
 cp .env.template .env
@@ -110,7 +110,7 @@ La carpeta [gtfs-files](/gtfs-files/) contiene una copia de los últimos archivo
 
 ## Despliegue en producción
 
-Se ha añadido la posibilidad de ejecutar esta api en un contenedor docker con las dependencias necesarias. 
+Se ha añadido la posibilidad de ejecutar esta API en un contenedor Docker con las dependencias necesarias.
 
 Asegúrate de tener instalado [Docker](https://www.docker.com/).
 
@@ -119,10 +119,13 @@ Para ejecutar la api en un contenedor docker se debe ejecutar los siguientes com
 ```bash
 git clone https://github.com/VallaBus/api-auvasa.git
 cd api-auvasa
+cp .env.template .env
 docker compose up -d
 ```
 
-Si quieres cambiar los parámetros de configuración deberás editar el archivo `.env` basado en el archivo `.env.example` antes de lanzar el contenedor.
+Si quieres cambiar los parámetros de configuración deberás editar el archivo `.env` antes de lanzar el contenedor. Docker Compose inyecta ese archivo en el entorno del proceso; el `.env` no se incluye dentro de la imagen publicada. De este modo, reconstruir o actualizar la imagen no sustituye la configuración propia de cada servidor.
+
+`NODE_ENV`, `PORT`, `GTFS_REFRESH_RATE` y `GTFS_RT_EXPIRATION_SECONDS` tienen valores explícitos de producción en `docker-compose.yml`. El resto de opciones se obtiene del `.env` del servidor. Las variables inyectadas por Docker Compose tienen prioridad sobre los valores de respaldo incluidos en la imagen.
 
 Por defecto, la api se ejecuta en el puerto 3000 de `localhost`. Si es necesario hacer alguna modificación, habrá que editar el archivo `docker-compose.yml`.
 
@@ -131,12 +134,7 @@ Por defecto, la api se ejecuta en el puerto 3000 de `localhost`. Si es necesario
 Por defecto docker usará [la imagen apivallabus ya construida](https://hub.docker.com/r/vallabus/apivallabus), si en el futuro quieres bajar nuevas versiones de esta imagen puedes hacerlo con:
 
 ```bash
-docker pull
-```
-
-Y reiniciar el contenedor
-
-```bash
+docker compose pull
 docker compose stop
 docker compose up -d
 ```
