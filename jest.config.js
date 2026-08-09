@@ -10,6 +10,7 @@ module.exports = {
     '**/tests/circuit-breaker.test.js',
     '**/tests/robust-gtfs-wrapper.test.js',
     '**/tests/health-endpoints.test.js',
+    '**/tests/gtfs-alerts.test.js',
     '**/tests/realtime-quality.test.js',
     '**/tests/realtime-scheduler.test.js'
   ],
