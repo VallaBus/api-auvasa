@@ -5,6 +5,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 353,1003,Paseo Zorrilla 52 esquina Paseo Hospital Militar,Parada,41.6437868696237,-4.73556142304993,,http://www.auvasa.es/mapa-de-servicios/?parada=1003,,,Europe/Madrid
 355,1006,Calle Lucio Zumel esquina Avenida Soria,Parada,41.613388139184,-4.68877305291374,,http://www.auvasa.es/mapa-de-servicios/?parada=1006,,,Europe/Madrid
 356,1007,Calle Doctrinos 12 esquina María de Molina,Parada,41.64940703773,-4.73116000429171,,http://www.auvasa.es/mapa-de-servicios/?parada=1007,,,Europe/Madrid
+357,1025,Plaza Poniente frente San Lorenzo,Parada,41.652707040874,-4.73115100392404,,http://www.auvasa.es/mapa-de-servicios/?parada=1025,,,Europe/Madrid
 358,1038,Paseo Zorrilla 187 esquina Vinos Vega Sicilia,Parada,41.6196465271162,-4.74790558854684,,http://www.auvasa.es/mapa-de-servicios/?parada=1038,,,Europe/Madrid
 359,1039,Paseo Zorrilla 346 esquina Vinos Ribera de Duero,Parada,41.6194764746951,-4.74826800226399,,http://www.auvasa.es/mapa-de-servicios/?parada=1039,,,Europe/Madrid
 360,1043,Paseo Zorrilla 203 esquina Vinos de Cigales,Parada,41.6170100490037,-4.74814126863808,,http://www.auvasa.es/mapa-de-servicios/?parada=1043,,,Europe/Madrid
@@ -377,6 +378,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 146,755,Calle La Morena 3 Bloque 2,Parada,41.6568260437464,-4.74244599636636,,http://www.auvasa.es/mapa-de-servicios/?parada=755,,,Europe/Madrid
 147,757,Avenida Gloria Fuertes 1 esquina Joaquín Velasco Martín,Parada,41.6533800423541,-4.73661799849766,,http://www.auvasa.es/mapa-de-servicios/?parada=757,,,Europe/Madrid
 148,759,Avenida Gloria Fuertes 4 esquina Avenida Salamanca,Parada,41.6535420387106,-4.73660300429376,,http://www.auvasa.es/mapa-de-servicios/?parada=759,,,Europe/Madrid
+149,761,Avenida Mundial 82 Estadio José Zorrilla,Parada,41.644685706236,-4.76014991894024,,http://www.auvasa.es/mapa-de-servicios/?parada=761,,,Europe/Madrid
 150,766,Calle Daniel del Olmo 18 frente ITV,Parada,41.6275038398727,-4.73180086697089,,http://www.auvasa.es/mapa-de-servicios/?parada=766,,,Europe/Madrid
 153,769,Calle Daniel del Olmo frente 20 ITV,Parada,41.6275500419159,-4.73122500238093,,http://www.auvasa.es/mapa-de-servicios/?parada=769,,,Europe/Madrid
 155,771,Calle Títulos esquina Guindal,Parada,41.6913679146325,-4.71279619246588,,http://www.auvasa.es/mapa-de-servicios/?parada=771,,,Europe/Madrid
