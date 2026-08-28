@@ -95,6 +95,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 447,1219,Avenida Entrepinos 57,Parada,41.5703930451878,-4.83661399471623,,http://www.auvasa.es/mapa-de-servicios/?parada=1219,,,Europe/Madrid
 448,1220,Avenida Miguel de Cervantes en Aparcamiento,Parada,41.5704112089125,-4.83971162445835,,http://www.auvasa.es/mapa-de-servicios/?parada=1220,,,Europe/Madrid
 449,1222,Carretera Pesqueruela 1 esquina Carretera a Puente Duero,Parada,41.5841960429895,-4.81949700538097,,http://www.auvasa.es/mapa-de-servicios/?parada=1222,,,Europe/Madrid
+3048,12234,Avenida Mundial 82 frente Estadio José Zorrilla,Parada,41.6443028217118,-4.75972205410771,,http://www.auvasa.es/mapa-de-servicios/?parada=12234,,,Europe/Madrid
 450,1227,Avenida Entrepinos 52 esquina Tirso de Molina,Parada,41.5702819094993,-4.836736232627,,http://www.auvasa.es/mapa-de-servicios/?parada=1227,,,Europe/Madrid
 451,1228,Paseo Zorrilla 10,Parada,41.6469689357638,-4.73146350413824,,http://www.auvasa.es/mapa-de-servicios/?parada=1228,,,Europe/Madrid
 452,1233,Camino Viejo Simancas 167 esquina José Velicia,Parada,41.617995718243,-4.76133270456419,,http://www.auvasa.es/mapa-de-servicios/?parada=1233,,,Europe/Madrid
@@ -209,6 +210,8 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 567,1395,Cañada Real Vivero,Parada,41.5989882251273,-4.76515525865095,,http://www.auvasa.es/mapa-de-servicios/?parada=1395,,,Europe/Madrid
 568,1396,Cañada Real frente Vivero,Parada,41.5990036977572,-4.76504587622251,,http://www.auvasa.es/mapa-de-servicios/?parada=1396,,,Europe/Madrid
 569,1397,Calle Kilimanjaro fte. Plaza Everest,Parada,41.6149340442411,-4.71683999793761,,http://www.auvasa.es/mapa-de-servicios/?parada=1397,,,Europe/Madrid
+570,1398,Calle Recondo 23 esq. Acera Recoletos,Parada,41.643384476909,-4.72595410176338,,http://www.auvasa.es/mapa-de-servicios/?parada=1398,,,Europe/Madrid
+571,1399,Calle General Ruiz 4,Parada,41.6466590423232,-4.72426700318313,,http://www.auvasa.es/mapa-de-servicios/?parada=1399,,,Europe/Madrid
 572,1400,Calle Ciudad de La Habana 17,Parada,41.6345235068728,-4.76255197489168,,http://www.auvasa.es/mapa-de-servicios/?parada=1400,,,Europe/Madrid
 573,1401,Calle Cuesta Redonda esq. Azuela,Parada,41.6103529113006,-4.67905522229675,,http://www.auvasa.es/mapa-de-servicios/?parada=1401,,,Europe/Madrid
 574,1402,Camino de Las Yeseras Polideportivo Municipal,Parada,41.6117180410459,-4.6801169941645,,http://www.auvasa.es/mapa-de-servicios/?parada=1402,,,Europe/Madrid
