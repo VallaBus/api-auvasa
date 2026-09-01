@@ -86,7 +86,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 437,1204,Calle Costa Brava Centro Comercial,Parada,41.6683861514544,-4.70959149703501,,http://www.auvasa.es/mapa-de-servicios/?parada=1204,,,Europe/Madrid
 438,1205,Calle Costa Brava 1 esquina Costa Dorada,Parada,41.6707776427378,-4.71202499746007,,http://www.auvasa.es/mapa-de-servicios/?parada=1205,,,Europe/Madrid
 439,1206,Calle Valle de Arán frente 40,Parada,41.6683166230269,-4.71503652404754,,http://www.auvasa.es/mapa-de-servicios/?parada=1206,,,Europe/Madrid
-440,1207,Calle Miguel Ruiz Temiño esquina JuanCarlosI sentido Centro,Parada,41.6330348904034,-4.71926249936419,,http://www.auvasa.es/mapa-de-servicios/?parada=1207,,,Europe/Madrid
+440,1207,Calle Miguel Ruiz Temiño esquina Juan Carlos I sent. Centro,Parada,41.6330348904034,-4.71926249936419,,http://www.auvasa.es/mapa-de-servicios/?parada=1207,,,Europe/Madrid
 441,1208,Calle Miguel Ruiz de Temiño esquina Juan Carlos I,Parada,41.6330017940947,-4.71946361794431,,http://www.auvasa.es/mapa-de-servicios/?parada=1208,,,Europe/Madrid
 442,1209,Calle Armonio 3  esquina Laúd,Parada,41.6335313407305,-4.71471319553697,,http://www.auvasa.es/mapa-de-servicios/?parada=1209,,,Europe/Madrid
 443,1215,Calle La Flauta Mágica esquina Electra,Parada,41.6853490945692,-4.73833380102886,,http://www.auvasa.es/mapa-de-servicios/?parada=1215,,,Europe/Madrid
@@ -237,6 +237,8 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 3176,1423,Calle Cometa esquina Astrofísica,Parada,41.6545253162973,-4.69999194153306,,http://www.auvasa.es/mapa-de-servicios/?parada=1423,,,Europe/Madrid
 3179,1424,Calle Aguanieves frente Autillo,Parada,41.6491462075604,-4.69916045673816,,http://www.auvasa.es/mapa-de-servicios/?parada=1424,,,Europe/Madrid
 3180,1425,Calle Aguanieves esquina Autillo,Parada,41.6493025367298,-4.69903975733244,,http://www.auvasa.es/mapa-de-servicios/?parada=1425,,,Europe/Madrid
+3208,1427,Calle Alcaparra 21 esquina Pomelo,Parada,41.6142833497401,-4.76111814390045,,http://www.auvasa.es/mapa-de-servicios/?parada=1427,,,Europe/Madrid
+3209,1428,Calle Maracuyá esquina Mango,Parada,41.6153862590431,-4.76387277255988,,http://www.auvasa.es/mapa-de-servicios/?parada=1428,,,Europe/Madrid
 1,550,Calle Hernando de Acuña 1 esquina Mateo Seoane S.,Parada,41.6379983836047,-4.75574461249468,,http://www.auvasa.es/mapa-de-servicios/?parada=550,,,Europe/Madrid
 2,551,Calle Hernando de Acuña 13 esquina Manuel Silvela,Parada,41.637992139995,-4.75843566197342,,http://www.auvasa.es/mapa-de-servicios/?parada=551,,,Europe/Madrid
 3,552,Calle Hernando de Acuña 18 esquina Manuel Silvela,Parada,41.6381753268001,-4.75855368880795,,http://www.auvasa.es/mapa-de-servicios/?parada=552,,,Europe/Madrid
@@ -577,3 +579,4 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 347,997,Paseo Zorrilla 1 antiguo Hospital Militar,Parada,41.6444810352843,-4.73420023719185,,http://www.auvasa.es/mapa-de-servicios/?parada=997,,,Europe/Madrid
 348,998,Paseo Zorrilla 130 Centro Comercial,Parada,41.6370320436707,-4.7393199970302,,http://www.auvasa.es/mapa-de-servicios/?parada=998,,,Europe/Madrid
 349,999,Paseo Zorrilla 133 La Rubia,Parada,41.6277797829535,-4.74327838843489,,http://www.auvasa.es/mapa-de-servicios/?parada=999,,,Europe/Madrid
+3148,PA12237,Dr. Villacián 49 esq. A. Miaja de la Muela,Parada,41.6380573480796,-4.75370854155959,,http://www.auvasa.es/mapa-de-servicios/?parada=PA12237,,,Europe/Madrid
