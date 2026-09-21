@@ -1,6 +1,6 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
 1,101,1,Barrio España - Covaresa,,3,http://www.auvasa.es/mapa-de-servicios/?linea=1,36AD30,FFFFFF
-2,101,2,San Pedro Regalado - Covaresa,,3,http://www.auvasa.es/mapa-de-servicios/?linea=2,F5C636,000000
+2,101,2,San Pedro Regalado - El peral,,3,http://www.auvasa.es/mapa-de-servicios/?linea=2,F5C636,000000
 3,101,3,Las Flores - Giron (Cementerio Contiendas),,3,http://www.auvasa.es/mapa-de-servicios/?linea=3,EE4BA4,000000
 4,101,4,Pinar de Jalón - Fuente Berrocal,,3,http://www.auvasa.es/mapa-de-servicios/?linea=4,AA541A,FFFFFF
 5,101,5,La Victoria - Santa Ana (Entrepinos),,3,http://www.auvasa.es/mapa-de-servicios/?linea=5,2FB7B7,FFFFFF
