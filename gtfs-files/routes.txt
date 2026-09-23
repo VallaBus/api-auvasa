@@ -33,7 +33,7 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 61,101,PSC1,Parquesol - Polígono Argales - Polígono San Cristóbal,,3,http://www.auvasa.es/mapa-de-servicios/?linea=61,792B37,FFFFFF
 62,101,PSC2,Rondilla - Pajarillos - Polígono San Cristóbal,,3,http://www.auvasa.es/mapa-de-servicios/?linea=62,792B37,FFFFFF
 63,101,PSC3,Las Flores - Delicias - Polígono Argales - Parquesol,,3,http://www.auvasa.es/mapa-de-servicios/?linea=63,792B37,FFFFFF
-71,101,B1,Covaresa - Fuente Dorada - San Pedro Regalado,,3,http://www.auvasa.es/mapa-de-servicios/?linea=71,236B1F,FFFFFF
+71,101,B1,El Peral - Fuente Dorada - San Pedro Regalado,,3,http://www.auvasa.es/mapa-de-servicios/?linea=71,236B1F,FFFFFF
 72,101,B2,Delicias - Doctrinos - La Victoria,,3,http://www.auvasa.es/mapa-de-servicios/?linea=72,9A7708,FFFFFF
 73,101,B3,Parquesol - Fuente Dorada - Las Flores,,3,http://www.auvasa.es/mapa-de-servicios/?linea=73,A84400,FFFFFF
 74,101,B4,Plaza Zorrilla - Camino Viejo Simancas,,3,http://www.auvasa.es/mapa-de-servicios/?linea=74,0099FF,FFFFFF
