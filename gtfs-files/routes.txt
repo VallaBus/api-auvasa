@@ -38,7 +38,7 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 73,101,B3,Parquesol - Fuente Dorada - Las Flores,,3,http://www.auvasa.es/mapa-de-servicios/?linea=73,A84400,FFFFFF
 74,101,B4,Plaza Zorrilla - Camino Viejo Simancas,,3,http://www.auvasa.es/mapa-de-servicios/?linea=74,0099FF,FFFFFF
 75,101,B5,Duque de la Victoria - La Cistérniga,,3,http://www.auvasa.es/mapa-de-servicios/?linea=75,910D55,FFFFFF
-81,101,F1,El peral - Covaresa - Rubia - Arturo Eyries - Estadio,,3,http://www.auvasa.es/mapa-de-servicios/?linea=81,006D38,FFFFFF
+81,101,F1,El Peral - Covaresa - Rubia - Arturo Eyries - Estadio,,3,http://www.auvasa.es/mapa-de-servicios/?linea=81,006D38,FFFFFF
 82,101,F2,Cister-Delici-Circular-Estaciones-Pza. Juan  Austria-Estadio,,3,http://www.auvasa.es/mapa-de-servicios/?linea=82,006D38,FFFFFF
 83,101,F3,Las Flores - Pajarillos - Doctrinos - Estadio,,3,http://www.auvasa.es/mapa-de-servicios/?linea=83,006D38,FFFFFF
 84,101,F4,Los Santos Pilarica - Doctrinos - Estadio,,3,http://www.auvasa.es/mapa-de-servicios/?linea=84,006D38,FFFFFF
