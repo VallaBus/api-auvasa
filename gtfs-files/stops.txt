@@ -94,6 +94,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 447,1219,Avenida Entrepinos 57,Parada,41.5703930451878,-4.83661399471623,,http://www.auvasa.es/mapa-de-servicios/?parada=1219,,,Europe/Madrid
 448,1220,Avenida Miguel de Cervantes en Aparcamiento,Parada,41.5704112089125,-4.83971162445835,,http://www.auvasa.es/mapa-de-servicios/?parada=1220,,,Europe/Madrid
 449,1222,Carretera Pesqueruela 1 esquina Carretera a Puente Duero,Parada,41.5841960429895,-4.81949700538097,,http://www.auvasa.es/mapa-de-servicios/?parada=1222,,,Europe/Madrid
+2942,12225,Cementerio de El Carmen,Parada,41.6667039044542,-4.70335904747926,,http://www.auvasa.es/mapa-de-servicios/?parada=12225,,,Europe/Madrid
 3048,12234,Avenida Mundial 82 frente Estadio José Zorrilla,Parada,41.6443028217118,-4.75972205410771,,http://www.auvasa.es/mapa-de-servicios/?parada=12234,,,Europe/Madrid
 450,1227,Avenida Entrepinos 52 esquina Tirso de Molina,Parada,41.5702819094993,-4.836736232627,,http://www.auvasa.es/mapa-de-servicios/?parada=1227,,,Europe/Madrid
 451,1228,Paseo Zorrilla 10,Parada,41.6469689357638,-4.73146350413824,,http://www.auvasa.es/mapa-de-servicios/?parada=1228,,,Europe/Madrid
